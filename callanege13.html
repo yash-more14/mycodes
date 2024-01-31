@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 13</title>
+    <style>
+        @keyframes animation {
+
+            2% {
+                left: 35%;
+                top: 0px;
+                width: 500px;
+                height: 150px;
+                background: #0810f9;
+            }
+
+            18% {
+                left: 35%;
+                top: 0px;
+                width: 500px;
+                height: 150px;
+                background: #0810f9;
+            }
+
+            25% {
+                left: 35%;
+                top: 200px;
+                width: 200px;
+                height: 200px;
+                background: #05f344
+            }
+
+            50% {
+                width: 100px;
+                height: 300px;
+                left: 35%;
+                top: 300px;
+                background-color: #bcf305;
+            }
+
+            75% {
+                top: 200px;
+                width: 200px;
+                left: 35%;
+                top: 200px;
+                background: #f00707;
+            }
+
+            100% {
+                left: 35%;
+                top: 0px;
+                width: 500px;
+                height: 150px;
+                background: #0810f9;
+            }
+
+        }
+
+        .squar {
+            position: absolute;
+            width: 500px;
+            height: 150px;
+            border-radius: 9px;
+            background: #0810f9;
+            /* top: 0px; */
+            left: 35%;
+            animation-name: animation;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="squar"></div>
+</body>
+
+</html>

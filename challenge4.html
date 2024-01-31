@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4 Form</title>
+    <style>
+        body {
+            padding: 3px;
+            margin: 5px;
+            box-sizing: border-box;
+        }
+
+        form {
+            padding: 8px;
+            border: 1px solid black;
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Employee Form</h1>
+
+    <form method="get">
+
+        <p>
+            First Name : <input type="text" name="first_name" id="first_name" placeholder="Enter First Name" required>
+        </p>
+        <p>
+            Last Name : <input type="text" name="last_name" id="last_name" placeholder="Enter Last Name" required>
+        </p>
+        <p>
+            Gender:
+            <select name="gender" id="gender" required>
+                <option value="selcet">Select---</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </p>
+        <p>
+            Adress: <br> <textarea name="adress" id="" cols="30" rows="6"></textarea required>
+        </p>
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+
+</html>

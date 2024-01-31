@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 8</title>
+    <style>
+        #parent-static{
+            position: static;
+            margin-left: 65px;
+            margin-top: 75px;
+            border: solid;
+            background-color: aqua;
+            width: 300px;
+            height: 200px;
+        }
+        #child-fixed{
+            position: fixed;
+            top: 0;
+            right: 0;
+            border: solid;
+            height: 30px;
+            width: 30px;
+            padding: 20px;
+            background: rebeccapurple;
+        }
+        #child-absolute{
+            position: absolute;
+            top: 0;
+            left: 0;
+            border: solid;
+            height: 30px;
+            width: 30px;
+            padding: 20px;
+            background: rgb(194, 163, 224);
+        }
+        #child-static{
+                position: static;
+                left: 0px;
+                top: 0px;
+                border: solid;
+            height: 30px;
+            width: 50px;
+
+            background: rgb(94, 200, 94);
+            }
+            #parent-relative{
+                position: relative;
+                margin-top: 30px;
+                margin-left: 30px;
+                border: solid;
+                background-color: aqua;
+            width: 300px;
+            height: 200px;
+            background-color: aquamarine;
+            }
+            #absolute-in-relative{
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                border: solid;
+                background: #e01c1c;
+            }
+    </style>
+</head>
+
+<body>
+    <div id="parent-static">
+        <div id="child-fixed">fixed</div>
+        <div id="child-absolute">absolute</div>
+        <div id="child-static">static</div>
+    </div>
+    <div id="parent-relative">
+        <div id="absolute-in-relative">
+            <p>absolute</p>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <style>
+        body {
+            margin: 4px;
+            padding: 5px;
+        }
+
+        h1 {
+            margin: 6px;
+            padding: 8px;
+        }
+
+        .input {
+            margin: 4px;
+            padding: 7px;
+            border: 1px solid black;
+            width: 300px;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 294px;
+        }
+
+        input[type="submit"],input[type="radio"]:hover {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <form method="get">
+
+        <a href="homePage.html">&larr; Go to home Page</a>
+        <br>
+        <h1><em>Contact Form</em></h1>
+
+        <div class="input">
+            <p>Name : <input type="text" name="Name" id="name" placeholder=" Enter your Name" required><br></p>
+            <p>Email : <input type="email" name="email" id="email" placeholder="@gmail.com" required></p>
+            <p>City : <input type="text" name="city" id="city" placeholder="Enter your City" required></p>
+            <p>Massage : <br> <textarea name="massage" id="massage" cols="35w" rows="10"
+                    placeholder="Write Massage Here"></textarea></p> <br>
+            <p>
+                You Like Our page : <input type="radio" name="feedBackYes" id="feedabck">Yes
+                <input type="radio" name="feedabck" id="feedabckNo">No
+            </p>
+            <input type="submit" value="Submit">
+    </div>
+
+</form>
+</body>
+
+</html>
